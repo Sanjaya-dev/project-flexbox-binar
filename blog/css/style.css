@@ -1,0 +1,42 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+    background-color: #100F0F;
+}
+/* blog */
+#blog h2{
+    width: 800px;
+    margin: 50px auto;
+    color: white;
+}
+.container-dua{
+    max-width: 800px;
+    margin: 50px auto;
+    color: white;
+}
+
+.last-post{
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2C3333;
+}
+.last-post p{
+    text-align:left;
+}
+@media(min-width: 600px){
+    .container-dua{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .last-post{
+        width: 45%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
