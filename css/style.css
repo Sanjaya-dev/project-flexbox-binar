@@ -210,6 +210,47 @@ body{
         box-sizing: border-box;
     }
 }
+
+/* projects */
+.project{
+  margin-bottom:50px;
+}
+.project h2{
+  width: 800px;
+  margin: 50px auto;
+  color: white;
+}
+.container-project{
+  width: 800px;
+  margin: 0 230px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header-project{
+  margin-top:-10%;
+}
+.teknologi{
+  display:flex;
+  justify-content: flex-start;
+}
+.teknologi p{
+  border-radius: 15px;
+  border: 2px;
+  background: black;
+  padding: 5px;
+  color: white;
+  margin: 5px;
+  margin-bottom: 12px;
+}
+.source-code{
+  color:white;
+  text-decoration:none;
+  margin-left: 5px;
+}
+
+
 /* gallery */
 .container-tiga {
     width: 100%;
