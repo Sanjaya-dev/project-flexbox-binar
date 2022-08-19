@@ -178,14 +178,6 @@ body{
     margin: 50px auto;
     color: white;
 }
-.container-dua{
-    width: 800px;
-    margin: 0 230px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
 .last-post{
     margin-bottom: 20px;
@@ -203,6 +195,8 @@ body{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin: 0 230px;
+        color: white;
     }
     .last-post{
         width: 45%;
