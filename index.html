@@ -4,17 +4,304 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>project flexbox binar</title>
 </head>
+
 <body>
     <header>
-
+        <a class="logo" href="/"><img class="Logoo" src="assets/img/binar-academy-logo-1658202607.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#">Contact</a>
+        <p class="menu cta">Menu</p>
     </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+        </div>
+    </div>
     <main>
+        <!-- Home -->
+        <section class="home-main">
+            <div class="header-container container">
+                <div class="col">
+                    <h2>Hi,</h2>
+                    <h1>I'm Yourname</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturie pellentesque eu.</p>
+                    <div class="button">
+                        <a href="#">Contact me!</a>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-gitlab"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col person">
+                    <img src="assets/img/Person.svg" alt="Person" />
+                </div>
+            </div>
+        </section>
+        <br>
+    </br>
+        <section class="card-home">
+            <div class="card-container container home">
+                <div class="card-col">
+                    <h1>Task</h1>
+                    <div class="card-flex">
+                        <a href="#" class="body-card">
+                            <div class="header-card">
+                                <p class="f-bold">Binar</p>
+                                <p class="space-8">|</p>
+                                <time datetime="2022-08-10 01:00">Aug 18, 2022</time>
+                            </div>
+                            <h3>Flexbox Layouting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem sint est placeat officia,
+                                incidunt magnam! Quibusdam maiores repellendus sint amet ducimus dicta, sapiente,
+                                expedita autem dolores nobis provident non. At.</p>
+                            <div class="img-box">
+                                <img src="assets/img/flexcss.jpeg" alt="flex" />
+                            </div>
+                        </a>
+                        <a href="#" class="body-card">
+                            <div class="header-card">
+                                <p class="f-bold">Binar</p>
+                                <p class="space-8">|</p>
+                                <time datetime="2022-08-10 01:00">Aug 10, 2022</time>
+                            </div>
+                            <h3>Flexbox Layouting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem sint est placeat officia,
+                                incidunt magnam! Quibusdam maiores repellendus sint amet ducimus dicta, sapiente,
+                                expedita autem dolores nobis provident non. At.</p>
+                            <div class="img-box">
+                                <img src="assets/img/flexcss.jpeg" alt="" />
+                            </div>
+                        </a>
+                        <a href="#" class="body-card">
+                            <div class="header-card">
+                                <p class="f-bold">Binar</p>
+                                <p class="space-8">|</p>
+                                <time datetime="2022-08-10 01:00">Aug 10, 2022</time>
+                            </div>
+                            <h3>Flexbox Layouting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem sint est placeat officia,
+                                incidunt magnam! Quibusdam maiores repellendus sint amet ducimus dicta, sapiente,
+                                expedita autem dolores nobis provident non. At.</p>
+                            <div class="img-box">
+                                <img src="assets/img/flexcss.jpeg" alt="" />
+                            </div>
+                        </a>
+                        <a href="#" class="body-card">
+                            <div class="header-card">
+                                <p class="f-bold">Binar</p>
+                                <p class="space-8">|</p>
+                                <time datetime="2022-08-10 01:00">Aug 10, 2022</time>
+                            </div>
+                            <h3>Flexbox Layouting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem sint est placeat officia,
+                                incidunt magnam! Quibusdam maiores repellendus sint amet ducimus dicta, sapiente,
+                                expedita autem dolores nobis provident non. At.</p>
+                            <div class="img-box">
+                                <img src="assets/img/flexcss.jpeg" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog -->
+        <div id="blog">
+            <h2>Lastest Posts</h2>
+            <div class="container-dua">
+                <div class="last-post posts-satu">
+                    <p>Generasi gigih | Apr 10,2022</p>
+                    <h1>#Generasi Gigih Soft Skill: Critical Thinking</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                        accusantium provident nihil sint corporis quo modi distinctio
+                        tenetur consequuntur at.
+                    </p>
+                    <img src="https://www.irfannm.xyz/_next/image?url=%2Fassets%2Fblog%2Fgenerasi-gigih-critical-thinking%2Fcover.jpg&w=1200&q=75"
+                        alt="" style="width: 320px; height: 200px" />
+                </div>
+                <div class="last-post posts-dua">
+                    <p>Generasi gigih | Apr 10,2022</p>
+                    <h1>#Generasi Gigih Soft Skill: Most memorable feedback</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                        accusantium provident nihil sint corporis quo modi distinctio
+                        tenetur consequuntur at.
+                    </p>
+                    <img src="https://www.irfannm.xyz/_next/image?url=%2Fassets%2Fblog%2Fgenerasi-gigih-most-memorable-feedback%2Fcover.png&w=1200&q=75"
+                        alt="" style="width: 320px" />
+                </div>
+                <div class="last-post posts-tiga">
+                    <p>Generasi gigih | Apr 10,2022</p>
+                    <h1>#Generasi Gigih Soft Skill: Critical Thinking</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                        accusantium provident nihil sint corporis quo modi distinctio
+                        tenetur consequuntur at.
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="" style="width: 320px" />
+                </div>
+                <div class="last-post posts-empat">
+                    <p>Generasi gigih | Apr 10,2022</p>
+                    <h1>#Generasi Gigih Soft Skill: Critical Thinking</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                        accusantium provident nihil sint corporis quo modi distinctio
+                        tenetur consequuntur at.
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="" style="width: 320px" />
+                </div>
+            </div>
+        </div>
 
+        <!-- projects -->
+
+        <div class="project">
+            <h2>My Project</h2>
+            <div class="container-project">
+                <div class="last-post">
+                    <img src="img/project.jpg" alt="" class="img-gallery" width="320" height="200">
+                    <h2>Sistem Informasi Klinik</h2>
+                    <h5 class="header-project">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h5>
+                    <div class="teknologi">
+                        <p>Laravel</p>
+                        <p>Tailwind CSS</p>
+                    </div>
+                    <div class="img-project">
+                        <img src="img/github.png" width="12" height="22" style="width: 24px;">
+                        <a href="#" class="source-code">Source Code</a>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <img src="img/project.jpg" alt="" class="img-gallery" width="320" height="200">
+                    <h2>My Portofolio</h2>
+                    <h5 class="header-project">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h5>
+                    <div class="teknologi">
+                        <p>Next Js</p>
+                        <p>Tailwind CSS</p>
+                    </div>
+                    <div class="img-project">
+                        <img src="img/github.png" width="12" height="22" style="width: 24px;">
+                        <a href="#" class="source-code">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end project -->
+
+
+
+
+        <!-- gallery -->
+        <div class="container-tiga">
+            <h1>Our Gallery</h1>
+        </div>
+        <div class="img-gallery">
+            <img src="img/gallery1.jpg" alt="" />
+            <img src="img/gallery2.jpg" alt="" />
+            <img src="img/gallery3.jpg" alt="" />
+            <img src="img/gallery4.jpg" alt="" />
+            <img src="img/gallery5.jpg" alt="" />
+            <img src="img/gallery6.jpg" alt="" />
+     <br>
+     </br>
+     <!-- Contact -->
+     <div class="title">
+        <div class="left-side">
+          <h2>CONTACT</h2>
+        </div>
+        <div class="right-side">
+          <p><span></span></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="left-side">
+          <div class="item">
+            <h3>EMAIL</h3>
+            <span href="">Groupflexbox-2@gmail.com</span>
+          </div>
+          <div class="item">
+            <h3>PHONE</h3>
+            <span href="">(000) 000-0000</span>
+          </div>
+          <div class="item">
+            <h3>ADDRESS</h3>
+            <span>Los Angeles, Garden Street, 101</span>
+          </div>
+        </div>
+        <div class="right-side">
+          <form action="" method = "post">
+            <div class="top">
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+            </div>
+            <textarea name="name"placeholder="Message"></textarea>
+            <button type = "submit">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+        </div>
     </main>
     <footer>
-        
+        <div id="footer">
+            <div class="footer-left">
+                <h3>FLEXBOX FOOTER</h3>
+                <div class="social-list">
+                    <i class="bi bi-envelope-fill"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-discord"></i>
+                </div>
+                <button class="grow_spin">say hello</button>
+                <p>Copyright &copy; 2022 Flexbox Footer</p>
+            </div>
+            <div class="footer-right">
+                <div class="upside">
+                    <a href="#">home</a>
+                    <a href="#">blog</a>
+                    <a href="#">project</a>
+                    <a href="#">about</a>
+                </div>
+                <div class="downside">
+                    <a href="https://github.com/yusronab" target="_blank"><i class="bi bi-github"></i>source code</a>
+                </div>
+            </div>
+        </div>
     </footer>
+    
 </body>
+<script src="script.js"></script>
 </html>
